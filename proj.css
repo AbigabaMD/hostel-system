@@ -1,0 +1,163 @@
+
+*{
+    font-family:  sans-serif;
+   
+}
+.g{
+    margin-left: 5cm;
+}
+
+ tr, td{
+    padding-left:10px;
+    padding-right:100px;
+    font-size: medium;
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+    padding-top: 30px; 
+    width: 200px;
+
+
+
+  
+}
+.tabl{
+    
+    width:120%;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+   
+    
+
+}
+
+img{
+   
+    height: 190px;
+    border-radius:20px;
+    width:230px;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+
+   
+
+
+ 
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+ .green{
+    margin-left: 160px;
+    margin-right: 160px;
+    border-style:groove;
+    border-radius:10px;
+   
+} 
+#ren{
+    border-style:groove;
+    margin-left: 2px;
+    
+    font-family: sans-serif;
+    border-radius:8px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
+#rend{
+    border-style:groove;
+    margin-left: 6px;
+    border-color:lightblue;
+    font-family: sans-serif;
+    border-radius:8px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+h3{
+    margin-left: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create a two-column layout */
+  .column {
+    float: left;
+    width: 600px;
+    padding: 5px;
+  }
+  .green{
+    margin-left: 80px;
+    margin-right: 190px;
+    
+  }
+
+  /* Clearfix (clear floats) */
+  /* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 50%;
+   
+  }
+   */
+    td {
+  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+
+  }
+  div{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  svg{
+    color:goldenrod;
+    
+  }
+  tr.break td { 
+    height:2px;
+    opacity: 0;
+  } 
+  tr.middle td{
+    width :290px;
+
+  }
+  tr.table td:hover{
+    background-color: yellow;
+  }
+ 
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
